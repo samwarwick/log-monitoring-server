@@ -147,8 +147,8 @@ func main() {
 func usage() {
 	fmt.Printf("Usage:\n\n    %s <command> [arguments]\n\n", filepath.Base(os.Args[0]))
 	fmt.Printf("Commands:\n\n")
-	fmt.Println("    mock            Publish and receive test mesages using pstest mock")
-	fmt.Println("    emu             Publish and receive test mesages using PubSub Emulator (docker)")
+	fmt.Println("    mock            Publish and receive test messages using pstest mock")
+	fmt.Println("    emu             Publish and receive test messages using PubSub Emulator (docker)")
 	fmt.Println("    pub [qty]       Publish qty of test messages")
 	fmt.Println("    mon             Run LMS monitor for DURATION")
 	fmt.Printf("    sim             Run service simulator, sending random messages for DURATION\n\n")

@@ -40,7 +40,7 @@ Status summary of the key requirements discerned from the exercise documentation
 | Multiple services can push logs to LMS | Done |
 | Log messages are sent to a Google Pub/Sub topic| Done |
 | Log messages are persisted in MySQL | Outstanding. A mock in-memory datastore has been used instead. |
-| service_severity table must be kept in sync with service_logs (use a MySQL transaction?) | Outstanding. service_severity table not implemented |
+| service_severity table must be kept in sync with service_logs | Outstanding. service_severity table not implemented |
 | Logs are inserted in batches | Done |
 | Batch size is configurable via an environment variable | Done. BATCHSIZE env var |
 | Logs are flushed at regular intervals | Done |
@@ -120,7 +120,7 @@ Static analysis is performed with `go vet` as part of the make script.
 ### Unit Tests
 
 Unit tests exist for the essential functionality.
-The tests use the built-in go testing library and [testify assert](https://github.com/stretchr/testify/assert).
+The tests use the built-in go testing library and [testify](https://github.com/stretchr/testify) assert.
 GCP Pub/Sub is mocked with [pstest](https://pkg.go.dev/cloud.google.com/go/pubsub/pstest).
 Test coverage is produced with `go test -cover`. Currently at 52%.
 
@@ -137,8 +137,8 @@ Usage:
 
 Commands:
 
-    mock            Publish and receive test mesages using pstest mock
-    emu             Publish and receive test mesages using PubSub Emulator (docker)
+    mock            Publish and receive test messages using pstest mock
+    emu             Publish and receive test messages using PubSub Emulator (docker)
     pub [qty]       Publish qty of test messages
     mon             Run LMS monitor for DURATION
     sim             Run service simulator, sending random messages for DURATION
@@ -155,7 +155,7 @@ LMS requires the dockerised GCP PubSub emulator to be running. Start the emulato
 
 ```docker run --rm -ti -p 8681:8681 -e PUBSUB_PROJECT1=lms,log-topic:log-sub messagebird/gcloud-pubsub-emulator:latest```
 
-Every LMS client session requires the PUBSUB_EMULATOR_HOST environment variable to be set, pointing to the emulator URL and port:
+Every LMS client session requires the PUBSUB_EMULATOR_HOST environment variable to be set, pointing to the emulator URL and port. e.g:
 
 ```export PUBSUB_EMULATOR_HOST=localhost:8681```
 
@@ -202,7 +202,7 @@ See the [results](results) folder for an example test run.
 
 * Further static analysis e.g. with Sonarqube.
 
-* Non-functional testing. Test which large batch sizes and higher frequency of concurrent messages.
+* Non-functional testing. Test with large batch sizes and higher frequency of concurrent messages.
 
 
 ### Other
