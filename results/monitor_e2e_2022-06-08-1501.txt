@@ -1,0 +1,374 @@
+Log Monitoring Server (LMS)
+
+Client created (emulator=true)
+Log flusher initialised. Duration=2m0s, Interval=20s, Batch size=10
+Received message (ID=1). Service=charlie, Payload=Hello from charlie (message #1), Severity=warn
+Received message (ID=2). Service=charlie, Payload=Hello from charlie (message #2), Severity=info
+Received message (ID=3). Service=bravo, Payload=Hello from bravo (message #3), Severity=debug
+Received message (ID=4). Service=alpha, Payload=Hello from alpha (message #4), Severity=fatal
+Received message (ID=5). Service=alpha, Payload=Hello from alpha (message #5), Severity=fatal
+Received message (ID=6). Service=charlie, Payload=Hello from charlie (message #6), Severity=info
+Received message (ID=7). Service=charlie, Payload=Hello from charlie (message #7), Severity=info
+Received message (ID=8). Service=alpha, Payload=Hello from alpha (message #8), Severity=error
+Received message (ID=9). Service=alpha, Payload=Hello from alpha (message #9), Severity=warn
+Received message (ID=10). Service=bravo, Payload=Hello from bravo (message #10), Severity=debug
+Received message (ID=11). Service=bravo, Payload=Hello from bravo (message #11), Severity=error
+Received message (ID=12). Service=charlie, Payload=Hello from charlie (message #12), Severity=fatal
+Received message (ID=13). Service=alpha, Payload=Hello from alpha (message #13), Severity=info
+Received message (ID=14). Service=alpha, Payload=Hello from alpha (message #14), Severity=error
+Received message (ID=15). Service=bravo, Payload=Hello from bravo (message #15), Severity=error
+Received message (ID=16). Service=alpha, Payload=Hello from alpha (message #16), Severity=error
+Received message (ID=17). Service=bravo, Payload=Hello from bravo (message #17), Severity=error
+Received message (ID=18). Service=bravo, Payload=Hello from bravo (message #18), Severity=fatal
+Received message (ID=19). Service=bravo, Payload=Hello from bravo (message #19), Severity=debug
+Received message (ID=20). Service=alpha, Payload=Hello from alpha (message #20), Severity=error
+Received message (ID=21). Service=charlie, Payload=Hello from charlie (message #21), Severity=debug
+Flushing 21 queued messages at 2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201
+Message ID: 1
+Message ID: 2
+Message ID: 3
+Message ID: 4
+Message ID: 5
+Message ID: 6
+Message ID: 7
+Message ID: 8
+Message ID: 9
+Message ID: 10
+Flush 10 messages
+Storing 10 log messages
+Storing message: {charlie Hello from charlie (message #1) 2 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #2) 1 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #3) 0 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #4) 4 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #5) 4 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #6) 1 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #7) 1 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #8) 3 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #9) 2 {378867200 63790261276 0x11ce8e0} {13880139320841627512 20065787201 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #10) 0 {378867200 63790261276 0x11ce8e0} {13880139320842624912 20066784601 0x11ce8e0}}
+Message ID: 11
+Message ID: 12
+Message ID: 13
+Message ID: 14
+Message ID: 15
+Message ID: 16
+Message ID: 17
+Message ID: 18
+Message ID: 19
+Message ID: 20
+Flush 10 messages
+Storing 10 log messages
+Storing message: {bravo Hello from bravo (message #11) 3 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #12) 4 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #13) 1 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #14) 3 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #15) 3 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #16) 3 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #17) 3 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #18) 4 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #19) 0 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #20) 3 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Message ID: 21
+Flush remaining 1 message(s)
+Storing 1 log messages
+Storing message: {charlie Hello from charlie (message #21) 0 {378867200 63790261276 0x11ce8e0} {13880139320842839612 20066999301 0x11ce8e0}}
+Received message (ID=22). Service=alpha, Payload=Hello from alpha (message #22), Severity=info
+Received message (ID=23). Service=charlie, Payload=Hello from charlie (message #23), Severity=warn
+Received message (ID=24). Service=charlie, Payload=Hello from charlie (message #24), Severity=error
+Received message (ID=25). Service=charlie, Payload=Hello from charlie (message #25), Severity=error
+Received message (ID=26). Service=alpha, Payload=Hello from alpha (message #26), Severity=warn
+Received message (ID=27). Service=bravo, Payload=Hello from bravo (message #27), Severity=debug
+Received message (ID=28). Service=alpha, Payload=Hello from alpha (message #28), Severity=warn
+Received message (ID=29). Service=charlie, Payload=Hello from charlie (message #29), Severity=fatal
+Received message (ID=30). Service=charlie, Payload=Hello from charlie (message #30), Severity=info
+Received message (ID=31). Service=charlie, Payload=Hello from charlie (message #31), Severity=info
+Received message (ID=32). Service=bravo, Payload=Hello from bravo (message #32), Severity=debug
+Received message (ID=33). Service=alpha, Payload=Hello from alpha (message #33), Severity=error
+Received message (ID=34). Service=charlie, Payload=Hello from charlie (message #34), Severity=debug
+Received message (ID=35). Service=alpha, Payload=Hello from alpha (message #35), Severity=warn
+Received message (ID=36). Service=charlie, Payload=Hello from charlie (message #36), Severity=debug
+Received message (ID=37). Service=alpha, Payload=Hello from alpha (message #37), Severity=warn
+Received message (ID=38). Service=bravo, Payload=Hello from bravo (message #38), Severity=info
+Received message (ID=39). Service=alpha, Payload=Hello from alpha (message #39), Severity=warn
+Flushing 18 queued messages at 2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101
+Message ID: 22
+Message ID: 23
+Message ID: 24
+Message ID: 25
+Message ID: 26
+Message ID: 27
+Message ID: 28
+Message ID: 29
+Message ID: 30
+Message ID: 31
+Flush 10 messages
+Storing 10 log messages
+Storing message: {alpha Hello from alpha (message #22) 1 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #23) 2 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #24) 3 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #25) 3 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #26) 2 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #27) 0 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #28) 2 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #29) 4 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #30) 1 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #31) 1 {378867200 63790261276 0x11ce8e0} {13880139342318915892 40068239101 0x11ce8e0}}
+Message ID: 32
+Message ID: 33
+Message ID: 34
+Message ID: 35
+Message ID: 36
+Message ID: 37
+Message ID: 38
+Message ID: 39
+Flush remaining 8 message(s)
+Storing 8 log messages
+Storing message: {bravo Hello from bravo (message #32) 0 {378867200 63790261276 0x11ce8e0} {13880139342319435492 40068758701 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #33) 3 {378867200 63790261276 0x11ce8e0} {13880139342319435492 40068758701 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #34) 0 {378867200 63790261276 0x11ce8e0} {13880139342319435492 40068758701 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #35) 2 {378867200 63790261276 0x11ce8e0} {13880139342319435492 40068758701 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #36) 0 {378867200 63790261276 0x11ce8e0} {13880139342319475392 40068798601 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #37) 2 {378867200 63790261276 0x11ce8e0} {13880139342319475392 40068798601 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #38) 1 {378867200 63790261276 0x11ce8e0} {13880139342319475392 40068798601 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #39) 2 {378867200 63790261276 0x11ce8e0} {13880139342319475392 40068798601 0x11ce8e0}}
+Received message (ID=40). Service=bravo, Payload=Hello from bravo (message #40), Severity=info
+Received message (ID=41). Service=charlie, Payload=Hello from charlie (message #41), Severity=warn
+Received message (ID=42). Service=alpha, Payload=Hello from alpha (message #42), Severity=info
+Received message (ID=43). Service=charlie, Payload=Hello from charlie (message #43), Severity=info
+Received message (ID=44). Service=alpha, Payload=Hello from alpha (message #44), Severity=warn
+Received message (ID=45). Service=bravo, Payload=Hello from bravo (message #45), Severity=debug
+Received message (ID=46). Service=bravo, Payload=Hello from bravo (message #46), Severity=error
+Received message (ID=47). Service=alpha, Payload=Hello from alpha (message #47), Severity=error
+Received message (ID=48). Service=charlie, Payload=Hello from charlie (message #48), Severity=warn
+Received message (ID=49). Service=charlie, Payload=Hello from charlie (message #49), Severity=fatal
+Received message (ID=50). Service=charlie, Payload=Hello from charlie (message #50), Severity=info
+Received message (ID=51). Service=bravo, Payload=Hello from bravo (message #51), Severity=info
+Received message (ID=52). Service=bravo, Payload=Hello from bravo (message #52), Severity=debug
+Received message (ID=53). Service=alpha, Payload=Hello from alpha (message #53), Severity=debug
+Received message (ID=54). Service=charlie, Payload=Hello from charlie (message #54), Severity=warn
+Received message (ID=55). Service=bravo, Payload=Hello from bravo (message #55), Severity=fatal
+Received message (ID=56). Service=alpha, Payload=Hello from alpha (message #56), Severity=warn
+Received message (ID=57). Service=alpha, Payload=Hello from alpha (message #57), Severity=error
+Received message (ID=58). Service=alpha, Payload=Hello from alpha (message #58), Severity=debug
+Received message (ID=59). Service=charlie, Payload=Hello from charlie (message #59), Severity=warn
+Flushing 20 queued messages at 2022-06-08 15:02:16.3201399 +1000 AEST m=+60.055468101
+Message ID: 40
+Message ID: 41
+Message ID: 42
+Message ID: 43
+Message ID: 44
+Message ID: 45
+Message ID: 46
+Message ID: 47
+Message ID: 48
+Message ID: 49
+Flush 10 messages
+Storing 10 log messages
+Storing message: {bravo Hello from bravo (message #40) 1 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #41) 2 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #42) 1 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #43) 1 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #44) 2 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #45) 0 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #46) 3 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #47) 3 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #48) 2 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #49) 4 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Message ID: 50
+Message ID: 51
+Message ID: 52
+Message ID: 53
+Message ID: 54
+Message ID: 55
+Message ID: 56
+Message ID: 57
+Message ID: 58
+Message ID: 59
+Flush 10 messages
+Storing 10 log messages
+Storing message: {charlie Hello from charlie (message #50) 1 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #51) 1 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #52) 0 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #53) 0 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #54) 2 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #55) 4 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #56) 2 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #57) 3 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #58) 0 {378867200 63790261276 0x11ce8e0} {13880139363781853572 60056340301 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #59) 2 {378867200 63790261276 0x11ce8e0} {13880139363782443172 60056929901 0x11ce8e0}}
+Received message (ID=60). Service=alpha, Payload=Hello from alpha (message #60), Severity=info
+Received message (ID=61). Service=bravo, Payload=Hello from bravo (message #61), Severity=error
+Received message (ID=62). Service=alpha, Payload=Hello from alpha (message #62), Severity=debug
+Received message (ID=63). Service=alpha, Payload=Hello from alpha (message #63), Severity=fatal
+Received message (ID=64). Service=bravo, Payload=Hello from bravo (message #64), Severity=debug
+Received message (ID=65). Service=charlie, Payload=Hello from charlie (message #65), Severity=debug
+Received message (ID=66). Service=bravo, Payload=Hello from bravo (message #66), Severity=debug
+Received message (ID=67). Service=charlie, Payload=Hello from charlie (message #67), Severity=info
+Received message (ID=68). Service=alpha, Payload=Hello from alpha (message #68), Severity=info
+Received message (ID=69). Service=charlie, Payload=Hello from charlie (message #69), Severity=debug
+Received message (ID=70). Service=alpha, Payload=Hello from alpha (message #70), Severity=warn
+Received message (ID=71). Service=bravo, Payload=Hello from bravo (message #71), Severity=info
+Received message (ID=72). Service=alpha, Payload=Hello from alpha (message #72), Severity=error
+Received message (ID=73). Service=bravo, Payload=Hello from bravo (message #73), Severity=warn
+Received message (ID=74). Service=alpha, Payload=Hello from alpha (message #74), Severity=debug
+Received message (ID=75). Service=charlie, Payload=Hello from charlie (message #75), Severity=debug
+Received message (ID=76). Service=alpha, Payload=Hello from alpha (message #76), Severity=debug
+Received message (ID=77). Service=bravo, Payload=Hello from bravo (message #77), Severity=warn
+Flushing 18 queued messages at 2022-06-08 15:02:36.3337542 +1000 AEST m=+80.069082401
+Message ID: 60
+Message ID: 61
+Message ID: 62
+Message ID: 63
+Message ID: 64
+Message ID: 65
+Message ID: 66
+Message ID: 67
+Message ID: 68
+Message ID: 69
+Flush 10 messages
+Storing 10 log messages
+Storing message: {alpha Hello from alpha (message #60) 1 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #61) 3 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #62) 0 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #63) 4 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #64) 0 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #65) 0 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #66) 0 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #67) 1 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #68) 1 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #69) 0 {378867200 63790261276 0x11ce8e0} {13880139385269998352 80069648601 0x11ce8e0}}
+Message ID: 70
+Message ID: 71
+Message ID: 72
+Message ID: 73
+Message ID: 74
+Message ID: 75
+Message ID: 76
+Message ID: 77
+Flush remaining 8 message(s)
+Storing 8 log messages
+Storing message: {alpha Hello from alpha (message #70) 2 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #71) 1 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #72) 3 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #73) 2 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #74) 0 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #75) 0 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #76) 0 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Storing message: {bravo Hello from bravo (message #77) 2 {378867200 63790261276 0x11ce8e0} {13880139385270585552 80070235801 0x11ce8e0}}
+Received message (ID=78). Service=charlie, Payload=Hello from charlie (message #78), Severity=warn
+Received message (ID=79). Service=charlie, Payload=Hello from charlie (message #79), Severity=debug
+Received message (ID=80). Service=charlie, Payload=Hello from charlie (message #80), Severity=fatal
+Received message (ID=81). Service=alpha, Payload=Hello from alpha (message #81), Severity=info
+Received message (ID=82). Service=charlie, Payload=Hello from charlie (message #82), Severity=info
+Received message (ID=83). Service=charlie, Payload=Hello from charlie (message #83), Severity=warn
+Received message (ID=84). Service=alpha, Payload=Hello from alpha (message #84), Severity=fatal
+Flushing 7 queued messages at 2022-06-08 15:02:56.3251803 +1000 AEST m=+100.060508501
+Message ID: 78
+Message ID: 79
+Message ID: 80
+Message ID: 81
+Message ID: 82
+Message ID: 83
+Message ID: 84
+Flush remaining 7 message(s)
+Storing 7 log messages
+Storing message: {charlie Hello from charlie (message #78) 2 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #79) 0 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #80) 4 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #81) 1 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #82) 1 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Storing message: {charlie Hello from charlie (message #83) 2 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Storing message: {alpha Hello from alpha (message #84) 4 {378867200 63790261276 0x11ce8e0} {13880139406735826032 100060639801 0x11ce8e0}}
+Stopping flusher at 2022-06-08 15:03:16.3354662 +1000 AEST m=+120.070794401
+Received 84 messages
+Service Log:
+"service_name","payload","severity","timestamp","created_at"
+"charlie","Hello from charlie (message #1)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"charlie","Hello from charlie (message #2)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"bravo","Hello from bravo (message #3)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"alpha","Hello from alpha (message #4)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"alpha","Hello from alpha (message #5)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"charlie","Hello from charlie (message #6)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"charlie","Hello from charlie (message #7)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"alpha","Hello from alpha (message #8)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"alpha","Hello from alpha (message #9)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.330459 +1000 AEST m=+20.065787201"
+"bravo","Hello from bravo (message #10)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3314564 +1000 AEST m=+20.066784601"
+"bravo","Hello from bravo (message #11)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"charlie","Hello from charlie (message #12)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"alpha","Hello from alpha (message #13)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"alpha","Hello from alpha (message #14)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"bravo","Hello from bravo (message #15)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"alpha","Hello from alpha (message #16)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"bravo","Hello from bravo (message #17)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"bravo","Hello from bravo (message #18)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"bravo","Hello from bravo (message #19)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"alpha","Hello from alpha (message #20)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"charlie","Hello from charlie (message #21)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:36.3316711 +1000 AEST m=+20.066999301"
+"alpha","Hello from alpha (message #22)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"charlie","Hello from charlie (message #23)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"charlie","Hello from charlie (message #24)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"charlie","Hello from charlie (message #25)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"alpha","Hello from alpha (message #26)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"bravo","Hello from bravo (message #27)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"alpha","Hello from alpha (message #28)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"charlie","Hello from charlie (message #29)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"charlie","Hello from charlie (message #30)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"charlie","Hello from charlie (message #31)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3329109 +1000 AEST m=+40.068239101"
+"bravo","Hello from bravo (message #32)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334305 +1000 AEST m=+40.068758701"
+"alpha","Hello from alpha (message #33)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334305 +1000 AEST m=+40.068758701"
+"charlie","Hello from charlie (message #34)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334305 +1000 AEST m=+40.068758701"
+"alpha","Hello from alpha (message #35)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334305 +1000 AEST m=+40.068758701"
+"charlie","Hello from charlie (message #36)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334704 +1000 AEST m=+40.068798601"
+"alpha","Hello from alpha (message #37)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334704 +1000 AEST m=+40.068798601"
+"bravo","Hello from bravo (message #38)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334704 +1000 AEST m=+40.068798601"
+"alpha","Hello from alpha (message #39)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:01:56.3334704 +1000 AEST m=+40.068798601"
+"bravo","Hello from bravo (message #40)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #41)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #42)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #43)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #44)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"bravo","Hello from bravo (message #45)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"bravo","Hello from bravo (message #46)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #47)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #48)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #49)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #50)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"bravo","Hello from bravo (message #51)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"bravo","Hello from bravo (message #52)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #53)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #54)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"bravo","Hello from bravo (message #55)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #56)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #57)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"alpha","Hello from alpha (message #58)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3210121 +1000 AEST m=+60.056340301"
+"charlie","Hello from charlie (message #59)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:16.3216017 +1000 AEST m=+60.056929901"
+"alpha","Hello from alpha (message #60)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"bravo","Hello from bravo (message #61)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"alpha","Hello from alpha (message #62)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"alpha","Hello from alpha (message #63)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"bravo","Hello from bravo (message #64)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"charlie","Hello from charlie (message #65)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"bravo","Hello from bravo (message #66)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"charlie","Hello from charlie (message #67)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"alpha","Hello from alpha (message #68)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"charlie","Hello from charlie (message #69)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3343204 +1000 AEST m=+80.069648601"
+"alpha","Hello from alpha (message #70)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"bravo","Hello from bravo (message #71)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"alpha","Hello from alpha (message #72)","error","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"bravo","Hello from bravo (message #73)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"alpha","Hello from alpha (message #74)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"charlie","Hello from charlie (message #75)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"alpha","Hello from alpha (message #76)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"bravo","Hello from bravo (message #77)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:36.3349076 +1000 AEST m=+80.070235801"
+"charlie","Hello from charlie (message #78)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+"charlie","Hello from charlie (message #79)","debug","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+"charlie","Hello from charlie (message #80)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+"alpha","Hello from alpha (message #81)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+"charlie","Hello from charlie (message #82)","info","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+"charlie","Hello from charlie (message #83)","warn","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+"alpha","Hello from alpha (message #84)","fatal","2022-06-08 15:01:16.3788672 +1000 AEST","2022-06-08 15:02:56.3253116 +1000 AEST m=+100.060639801"
+84 record(s)
+
+real	2m0.157s
+user	0m0.000s
+sys	0m0.015s
