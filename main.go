@@ -152,7 +152,7 @@ func usage() {
 	fmt.Println("    pub [qty]       Publish qty of test messages")
 	fmt.Println("    mon             Run LMS monitor for DURATION")
 	fmt.Printf("    sim             Run service simulator, sending random messages for DURATION\n\n")
-	fmt.Printf("Enviroment variables:\n\n")
+	fmt.Printf("Environment variables:\n\n")
 	fmt.Println("    PUBSUB_EMULATOR_HOST  Url and port of PubSub emulator e.g. localhost:8681")
 	fmt.Println("    DURATION              Time (seconds) to run LMS and simulator")
 	fmt.Println("    BATCHSIZE             Number of messages per batch")

@@ -143,7 +143,7 @@ Commands:
     mon             Run LMS monitor for DURATION
     sim             Run service simulator, sending random messages for DURATION
 
-Enviroment variables:
+Environment variables:
 
     PUBSUB_EMULATOR_HOST  Url and port of PubSub emulator e.g. localhost:8681
     DURATION              Time (seconds) to run LMS and simulator
